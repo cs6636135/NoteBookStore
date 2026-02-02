@@ -23,7 +23,7 @@ while ($row = $stmt->fetch()):
 ?>
         <article class="eachproduct">
             <figure class="product_pic">
-                <a href="details.php?id_product=<?= $row["id_product"] ?>" class="product-link">
+                <a href="product/details.php?id_product=<?= $row["id_product"] ?>" class="product-link">
                     
                     <img src="product/product_photo/<?= $row["id_product"] ?>.jpg?<?= time() ?>" alt="<?= $row["name_product"] ?>">
                 </a>

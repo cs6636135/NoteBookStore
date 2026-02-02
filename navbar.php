@@ -184,17 +184,17 @@ session_start();
       <div id="menu-links">
         <div class="nav-left">
           <a href="/">Home</a>
-          <a href="../product/cart.php">Cart</a>
-          <a href="../notification/notification.php">Notification</a>
+          <a href="/product/cart.php">Cart</a>
+          <a href="/notification/notification.php">Notification</a>
         </div>
 
         <div class="nav-right">
           <?php
           if (isset($_SESSION['username'])) {
-            echo "🙍🏻‍♂️ <b><a href='../customer/customer.php'>" . $_SESSION['username'] . "</a></b> ";
-            echo "<a href='login/logout.php'>logout</a>";
+            echo "🙍🏻‍♂️ <b><a href='/customer/customer.php'>" . $_SESSION['username'] . "</a></b> ";
+            echo "<a href='/login/logout.php'>logout</a>";
           } else {
-            echo "<a href='login/login-form.php'>login</a>";
+            echo "<a href='/login/login-form.php'>login</a>";
           }
           ?>
         </div>
