@@ -1,3 +1,3 @@
-﻿# NoteBookStore
-# project website
+﻿# NoteBookStore project website
 https://noteboookstore.42web.io/
+
